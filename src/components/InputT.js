@@ -1,17 +1,14 @@
 import { TextInput, StyleSheet, View } from "react-native";
 
-export default () => {
+export default (props) => {
     return (
         <View>
-            <TextInput
-                style={styles.container}
-                keyboardType="numeric"
-            ></TextInput>
+            <TextInput style={styles.inputT} keyboardType="numeric" />
         </View>
     );
 };
 const styles = StyleSheet.create({
-    container: {
+    container0: {
         alignItems: "center",
         borderColor: "gray",
         width: "100%",
